@@ -1,0 +1,394 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Home Page",
+      "id": 61,
+      "ideas": {
+        "1": {
+          "title": "Header",
+          "id": 1,
+          "attr": {
+            "position": [
+              -79,
+              -24,
+              1
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Create Account",
+              "id": 2,
+              "ideas": {
+                "1": {
+                  "title": "User Details  Page 1",
+                  "id": 3,
+                  "ideas": {
+                    "1": {
+                      "title": "User Details Page 2",
+                      "id": 4,
+                      "attr": {},
+                      "ideas": {
+                        "1": {
+                          "title": "Redirection to Sign In Page",
+                          "id": 56
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "attr": {}
+            },
+            "11": {
+              "title": "Sign In",
+              "id": 5,
+              "ideas": {
+                "1": {
+                  "title": "Sign In By Email",
+                  "id": 6,
+                  "ideas": {
+                    "1": {
+                      "title": "Redirection to Dashboard",
+                      "id": 57
+                    }
+                  },
+                  "attr": {}
+                },
+                "2": {
+                  "title": "Sign In By School Code",
+                  "id": 7,
+                  "ideas": {
+                    "1": {
+                      "title": "Dashboard",
+                      "id": 10,
+                      "ideas": {
+                        "1": {
+                          "title": "Subjects",
+                          "id": 11,
+                          "ideas": {
+                            "1": {
+                              "title": "GK",
+                              "id": 31
+                            },
+                            "2": {
+                              "title": "Maths",
+                              "id": 32
+                            },
+                            "3": {
+                              "title": "English",
+                              "id": 33
+                            },
+                            "4": {
+                              "title": "Science",
+                              "id": 34
+                            },
+                            "5": {
+                              "title": "Reasoning",
+                              "id": 35
+                            },
+                            "6": {
+                              "title": "Others",
+                              "id": 36
+                            }
+                          }
+                        },
+                        "3": {
+                          "title": "Assignments (Optional)",
+                          "id": 13,
+                          "ideas": {
+                            "1": {
+                              "title": "Assignments List",
+                              "id": 37,
+                              "ideas": {
+                                "1": {
+                                  "title": "Due Date",
+                                  "id": 38
+                                },
+                                "2": {
+                                  "title": "Assigned Date",
+                                  "id": 39
+                                },
+                                "3": {
+                                  "title": "Assigned By Teacher (ID)",
+                                  "id": 40
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "4": {
+                          "title": "Notifications",
+                          "id": 14,
+                          "attr": {},
+                          "ideas": {}
+                        },
+                        "5": {
+                          "title": " Version Updates (Optional)",
+                          "id": 15,
+                          "ideas": {
+                            "1": {
+                              "title": "Version Number",
+                              "id": 47
+                            },
+                            "2": {
+                              "title": "Stable Version",
+                              "id": 48
+                            },
+                            "3": {
+                              "title": "Suitable Compatibilities",
+                              "id": 49
+                            }
+                          }
+                        },
+                        "6": {
+                          "title": "Viva Volt Support",
+                          "id": 16,
+                          "ideas": {
+                            "1": {
+                              "title": "Live Chat",
+                              "id": 50,
+                              "ideas": {
+                                "1": {
+                                  "title": "Tawk.to",
+                                  "id": 55
+                                }
+                              }
+                            },
+                            "2": {
+                              "title": "Ticket Raising",
+                              "id": 51
+                            }
+                          }
+                        },
+                        "7": {
+                          "title": "Log Out",
+                          "id": 17,
+                          "ideas": {
+                            "1": {
+                              "title": "Redirection to Home Page",
+                              "id": 52
+                            }
+                          }
+                        },
+                        "8": {
+                          "title": "Progress Graph",
+                          "id": 19,
+                          "ideas": {
+                            "1": {
+                              "title": "Progress reports in terms of activities, games, chapters completed, etc.",
+                              "id": 58
+                            }
+                          }
+                        },
+                        "9": {
+                          "title": "Progress Calender (Optional)",
+                          "id": 20,
+                          "ideas": {
+                            "1": {
+                              "title": "1. Schedule Events\n2. Smart Info Display\n3. Reminders\n4. Access your notes and tasks\n\n",
+                              "id": 60
+                            }
+                          }
+                        },
+                        "10": {
+                          "title": "Crash Course (optional)",
+                          "id": 44,
+                          "ideas": {
+                            "1": {
+                              "title": "Redirection to sorted   categorised modules",
+                              "id": 59
+                            }
+                          }
+                        },
+                        "3.5": {
+                          "title": "Timeline",
+                          "id": 18,
+                          "attr": {},
+                          "ideas": {
+                            "1": {
+                              "title": "Upcoming Modules, Tests, Events, etc.",
+                              "id": 41
+                            },
+                            "3": {
+                              "title": "Course Structure",
+                              "id": 43
+                            },
+                            "4": {
+                              "title": "Other",
+                              "id": 45
+                            }
+                          }
+                        },
+                        "0.5": {
+                          "title": "Profile",
+                          "id": 12,
+                          "attr": {},
+                          "ideas": {
+                            "1": {
+                              "title": "Name",
+                              "id": 21
+                            },
+                            "2": {
+                              "title": "Class",
+                              "id": 22
+                            },
+                            "3": {
+                              "title": "School",
+                              "id": 23
+                            },
+                            "4": {
+                              "title": "School ID",
+                              "id": 25
+                            },
+                            "5": {
+                              "title": "Subscriptions Details",
+                              "id": 26
+                            },
+                            "6": {
+                              "title": "Profile Picture (Optional)",
+                              "id": 28
+                            },
+                            "7": {
+                              "title": "Update Profile",
+                              "id": 30
+                            },
+                            "0.5": {
+                              "title": "User ID",
+                              "id": 24,
+                              "attr": {}
+                            },
+                            "0.75": {
+                              "title": "Account Password",
+                              "id": 27,
+                              "attr": {}
+                            },
+                            "0.875": {
+                              "title": "Email ID",
+                              "id": 29,
+                              "attr": {}
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "attr": {}
+            },
+            "12": {
+              "title": "Buy a course",
+              "id": 64
+            },
+            "13": {
+              "title": "Others",
+              "id": 67
+            }
+          }
+        },
+        "11": {
+          "title": "Landing Page Body",
+          "id": 62,
+          "attr": {},
+          "ideas": {
+            "1": {
+              "title": "Slider",
+              "id": 65
+            },
+            "2": {
+              "title": "Viva Ads",
+              "id": 66
+            },
+            "3": {
+              "title": "Subjects List",
+              "id": 68
+            },
+            "4": {
+              "title": "Features",
+              "id": 69
+            },
+            "5": {
+              "title": "Online Instructors",
+              "id": 70
+            },
+            "6": {
+              "title": "Others",
+              "id": 71
+            }
+          }
+        },
+        "21": {
+          "title": "Footer",
+          "id": 63,
+          "ideas": {
+            "1": {
+              "title": "About Volt",
+              "id": 72,
+              "ideas": {
+                "1": {
+                  "title": "Viva Online Learning Technologies is an innovative platform for curricular learning. With video and interactive course modules delivered through web, it turns learning into a fun-filled and engaging experience.",
+                  "id": 84
+                }
+              }
+            },
+            "2": {
+              "title": "Important Links",
+              "id": 73,
+              "ideas": {
+                "1": {
+                  "title": "About Us\n Contact Us\n Privacy Policy\n Terms of Service\n Refund Policy",
+                  "id": 79
+                }
+              }
+            },
+            "3": {
+              "title": "Contact us",
+              "id": 74,
+              "ideas": {
+                "1": {
+                  "title": "4737/23, Ansari Road, Dariya Ganj, New Delhi, Delhi 110002\n011 4224 2200\ninfo@vivovolt.com",
+                  "id": 82
+                }
+              }
+            },
+            "5": {
+              "title": "Copyright Info",
+              "id": 77,
+              "ideas": {
+                "1": {
+                  "title": "© 2020 Volt. All rights reserved. Design by Vivadigital",
+                  "id": 83
+                }
+              }
+            },
+            "2.5": {
+              "title": "Useful links",
+              "id": 76,
+              "attr": {},
+              "ideas": {
+                "1": {
+                  "title": "Subjects\nInstructors\nGallery\nBlog\nTeam\nTestimonials\nOur Mission\nLearning & Fun\nHealthy Meals",
+                  "id": 81
+                }
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "position": [
+          -12,
+          -15,
+          1
+        ]
+      }
+    }
+  },
+  "attr": {
+    "theme": "topdownStandard"
+  },
+  "title": "Home Page",
+  "links": []
+}
