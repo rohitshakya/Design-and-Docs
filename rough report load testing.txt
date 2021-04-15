@@ -1,0 +1,79 @@
+PS: Load balancer is working fine
+The User Capacity Analysis calculates how many users the application can support based on the configured performance goals. See the User Capacity section for a more detailed analysis.
+
+Maximum Users Analyzed
+200 + 200 up to 2000
+
+Ramp-up time 100 seconds
+Start Users	1200
+Increment Users	12 users over 1 seconds
+Limit To	n/a
+Estimated Peak Users	1000
+
+Testcase 1: Homepage hits without login
+Pages	1
+URLs	81
+Images	54
+Page size	70 KB
+
+Performance Goals
+1200 Users	All goals passed All goals passed 
+(Response Time 0.46 sec: Rejected connection count:0:Client TLS negotiation error count:1: Throughput: 16 request/s: CPU Utilization Instance 1: less than 8% Instance 2:3.49%: sustainable zone at 20%: Instance 1 incoming traffic 5-6 MB Instance 1 outgoing traffic traffic 13-15 MB Instance 2 incoming traffic 5-6 MB Instance 2 outgoing traffic traffic 16-17 MB)
+
+1400 Users	All goals passed All goals passed 
+(Response Time 0.91 sec: Rejected connection count:0:Client TLS negotiation error count:0: Throughput: 19 request/s: CPU Utilization Instance 1: less than 8% Instance 2:3.49%: sustainable zone at 20% Instance 1 incoming traffic 5-6 MB Instance 1 outgoing traffic traffic 13-15 MB Instance 2 incoming traffic 5-6 MB Instance 2 outgoing traffic traffic 16-17 MB)
+
+1600 Users	All goals passed All goals passed 
+(Response Time 0.91 sec: Rejected connection count:0:Client TLS negotiation error count:3: Throughput: 6 request/s : CPU Utilization Instance 1: less than 8% Instance 2:3.49%: sustainable zone at 20% Instance 1 incoming traffic 5-6 MB Instance 1 outgoing traffic traffic 13-15 MB Instance 2 incoming traffic 5-6 MB Instance 2 outgoing traffic traffic 16-17 MB)
+
+2000 Users	All goals passed All goals passed 
+(Response Time 3 sec: Rejected connection count:0:Client TLS negotiation error count:0: Throughput: 24 request/s : CPU Utilization Instance 1: less than 8% Instance 2:3.49%: sustainable zone at 20% Instance 1 incoming traffic 5-6 MB Instance 1 outgoing traffic traffic 13-15 MB Instance 2 incoming traffic 5-6 MB Instance 2 outgoing traffic traffic 16-17 MB)
+
+Summary: All goals passed All goals passed till 2000 users :pending
+
+
+Case 2:
+
+Maximum Users Analyzed
+200 + 200 up to 600
+
+Ramp-up time 400 seconds
+Start Users	400
+Increment Users	1 users over 1 seconds
+Limit To	n/a
+Estimated Peak Users	200
+
+Testcase 1: User logins and stay there for 20 seconds
+Pages	1
+URLs	81
+Images	54
+Page size	70 KB
+
+Performance Goals
+400 Users	All goals passed All goals passed 
+(Response Time 0.01 sec: Rejected connection count:0:Client TLS negotiation error count:23: Throughput: 2 request/s: CPU Utilization Instance 1: less than 3.2% Instance 2:1.76%: sustainable zone at 20%: Instance 1 incoming traffic 1 MB Instance 1 outgoing traffic traffic 6 MB Instance 2 incoming traffic 1 MB Instance 2 outgoing traffic traffic 7 MB)
+
+
+600 Users	All goals passed All goals passed 
+(Response Time 0.01 sec: Rejected connection count:0:Client TLS negotiation error count:15: Throughput: 2 request/s: CPU Utilization Instance 1: less than 1.6% Instance 2:1.76%: sustainable zone at 20%: Instance 1 incoming traffic 1 MB Instance 1 outgoing traffic traffic 6 MB Instance 2 incoming traffic 1 MB Instance 2 outgoing traffic traffic 7 MB)
+
+
+1000 Users	All goals passed All goals passed 
+(Response Time 0.08 sec: Rejected connection count:0:Client TLS negotiation error count:9: Throughput: 6 request/s: CPU Utilization Instance 1: less than 6% Instance 2:7%: sustainable zone at 20%: Instance 1 incoming traffic 1 MB Instance 1 outgoing traffic traffic 6 MB Instance 2 incoming traffic 1 MB Instance 2 outgoing traffic traffic 7 MB)
+
+3000 Users	All goals passed All goals passed 
+(Response Time 0.08 sec: Rejected connection count:0:Client TLS negotiation error count:9: Throughput: 6 request/s: CPU Utilization Instance 1: less than 6% Instance 2:7%: sustainable zone at 20%: Instance 1 incoming traffic 1 MB Instance 1 outgoing traffic traffic 6 MB Instance 2 incoming traffic 1 MB Instance 2 outgoing traffic traffic 7 MB)
+
+
+Edtech companies:
+Byju's
+Vedantu
+K12
+Coursera
+Easy Education Inc
+Blackboard
+Chegg
+Voxy
+Dreambox
+Knewton
+Instructure

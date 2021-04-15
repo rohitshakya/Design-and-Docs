@@ -1,0 +1,19 @@
+Q.1 Write a python program to perform different operation on two decimal number
+#To perform different operation on two decimal number
+num1=float(input("Enter first number:"))
+num2=float(input("Enter second number:"))
+print("Enter which operation would you like to perform?")
+ch=input("Enter any of these char for specific operation:+,-,*,/:")
+if(ch=='+'):
+      print("num1+num2=",num1+num2)
+elif(ch=='-'):
+      print("num1-num2=",num1-num2)
+
+elif(ch=='*'):
+      print("num1*num2=",num1*num2)
+
+elif(ch=='/'):
+      print("num1/num2=",num1/num2)      
+else:
+      print("Input character is not recognised")
+temp=input()

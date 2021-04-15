@@ -1,0 +1,31 @@
+ .li_class_header
+    {
+      display: block;
+      font-size: 18px;
+      padding: 28px 20px 20px;
+      text-transform: capitalize;
+      font-family: 'Varela Round', sans-serif;
+      position: relative;
+      font-weight: 800;"
+    }
+
+    .mainmenu li a {
+    display: block;
+    font-size: 18px;
+    padding: 28px 20px 20px;
+    text-transform: capitalize;
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+    font-weight: 800;
+    text-align: center;
+}
+
+.mainmenu > ul > li > i {
+    position: absolute;
+    width: 19px;
+    left: 50%;
+    margin-left: -11px;
+    top: 6px;
+    font-size: 20px;
+    color: #fff;
+}
